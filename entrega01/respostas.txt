@@ -22,4 +22,4 @@ Para que serve o Git:
  É um sistema de controle de versão distribuido, ele tem como objetivo fazer com que o usuario tenha um controle da evolução do seu programa, de forma que mantenha o historico antigo/versões antigas do programa, além de registro do que foi alterado, quem alterou e etc.
 
 O que é um commit:
- É um registro no historico do Git (Snapshot) ele salva um retrato do estado atual dos arquivos da aplicação, juntamente com uma mensagem informada pelo usuario.
+ É um registro no historico do Git (Snapshot) ele salva um retrato do estado atual dos arquivos d   a aplicação, juntamente com uma mensagem informada pelo usuario.

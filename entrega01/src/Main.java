@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,8 +14,7 @@ public class Main {
         System.out.println(Idade + " a\nos");
         System.out.println(Altura + "m");
         System.out.println(Cidade + "/SP");
-        System.out.println(Programador);
-
+        System.out.println(Programador);");
 
 
     }
