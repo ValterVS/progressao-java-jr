@@ -1,0 +1,25 @@
+O que é:
+
+JDK:
+ Java Development Kit como o nome diz é o kit de desenvolvimento Java para os programadores, nela contém tudo o que é necessário para criar, compilar e desenvolver programas em Java
+
+JRE:
+ Java Runtime Environment é o ambiente de execução para programas Java, ele é necessário apenas para quem vai rodar o programa Java, nele terá as bibliotecas e estruturas básicas da linguagem para o sistema operacional.
+
+JVM:
+ Java Virtual Machine é a máquina virtual Java, ele é o que transforma/traduz o código Java de forma que o sistema operacional consiga entender e executar, dessa forma, mantendo sempre o padrão e fazendo com que ele rode da mesma maneira em diferentes sistemas operacionais.
+
+Classe:
+ É uma estrutura(blueprint) que encapsula estado e comportamento, definindo atributos, metodos e tipos de dados  a partir de instancias.
+
+Variavel:
+ É um identificador assoaciado a um endereçõ ou posição na memória reservada(Heap ou Stack), de forma que armazenen a informação de maneira temporaria e podendo ter seus valores alterados no decorrer da execução.
+
+O que faz o método main():
+ ele é o entry point da aplicação, é nele onde o programa começara a ser executado.
+
+Para que serve o Git:
+ É um sistema de controle de versão distribuido, ele tem como objetivo fazer com que o usuario tenha um controle da evolução do seu programa, de forma que mantenha o historico antigo/versões antigas do programa, além de registro do que foi alterado, quem alterou e etc.
+
+O que é um commit:
+ É um registro no historico do Git (Snapshot) ele salva um retrato do estado atual dos arquivos da aplicação, juntamente com uma mensagem informada pelo usuario.
