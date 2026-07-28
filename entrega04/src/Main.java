@@ -1,17 +1,6 @@
 import java.util.Scanner;
 public class Main {
 
-    public static void CadastrarCliente(){
-
-    }
-
-    public static void ListarClientes(){
-
-    }
-
-    public static void QtdCadastros(){
-
-    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
