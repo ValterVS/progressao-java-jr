@@ -1,0 +1,54 @@
+       /*
+        for(int numero = 1; numero <=100; numero++) {
+            System.out.println(numero);
+        }
+        for(int numero = 7; numero <= 70; numero = numero + 7) {
+            System.out.println(numero);
+        }
+
+        boolean validador = false;
+
+        while(validador == false){
+            validador = VerificaSenha(validador);
+        }
+*/
+/*
+        int opcao = 1;
+        do {
+            System.out.println("Digite 1 para verifica senha");
+            System.out.println("Digite 2 para encerrar programa");
+            opcao = scanner.nextInt();
+        }while(opcao != 0);kjsdhaksjdhaksdjhaskdahsdkahdkasjhjkdjahsdkjahdkajhasdasdasdadadadasdadakjdakjaskjhdaskjda
+*/
+        /*
+        for(int base = 1; base <= 5; base ++) {
+            for (int base2 = 1; base2 <= base; base2++) {
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+        for(int base3 = 5; base3 >= 1; base3 --) {
+            for (int base4 = 1; base4 <= base3; base4++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        */
+
+
+
+            public static boolean VerificaSenha(boolean validador){
+            Scanner scanner=new Scanner(System.in);
+            int senha=scanner.nextInt();
+
+            if(senha == 240304){
+                System.out.println("Senha Valida!");
+                validador=true;
+                return validador;
+            }else{
+                validador = false;
+                return validador;
+            }
+
+            }
