@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/entrega01/entrega01.iml" filepath="$PROJECT_DIR$/entrega01/entrega01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entrega02/entrega02.iml" filepath="$PROJECT_DIR$/entrega02/entrega02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entrega03/entrega03.iml" filepath="$PROJECT_DIR$/entrega03/entrega03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entrega04/entrega04.iml" filepath="$PROJECT_DIR$/entrega04/entrega04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entrega05/entrega05.iml" filepath="$PROJECT_DIR$/entrega05/entrega05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entrega06/entrega06.iml" filepath="$PROJECT_DIR$/entrega06/entrega06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/progressao-java-jr.iml" filepath="$PROJECT_DIR$/.idea/progressao-java-jr.iml" />
+    </modules>
+  </component>
+</project>
