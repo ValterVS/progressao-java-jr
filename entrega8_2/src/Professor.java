@@ -1,4 +1,4 @@
-public class Professor extends Pessoa{
+public class Professor extends Pessoa implements Dinheiro{
 
     private String Disciplina;
     private double Salario;
@@ -12,6 +12,11 @@ public class Professor extends Pessoa{
     @Override
     public void MostraDados(){
         System.out.println("cccccccc");
+    }
+
+    public void DarOi(){};
+    public void Pagar(double Valor){
+        System.out.println("Conta paga valor: " + Valor);
     }
 
 
