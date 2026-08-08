@@ -14,5 +14,6 @@ public class Aluno extends Pessoa{
         System.out.println("bbbbbbbb");
     }
 
+    public void DarOi(){};
 
 }

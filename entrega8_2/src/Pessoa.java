@@ -1,4 +1,4 @@
-public class Pessoa {
+public abstract class Pessoa {
     private String Nome;
     private int Idade;
 
@@ -10,4 +10,6 @@ public class Pessoa {
     public void MostraDados(){
         System.out.println("aaaaaa");
     }
+
+    public abstract void DarOi();
 }
