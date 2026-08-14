@@ -62,5 +62,24 @@ public class Main {
             System.out.println(a);
         }
 
+        Set<String> emails = new HashSet<>();
+        emails.add("teste@gmail.com");
+        emails.add("java@gmail.com");
+        emails.add("teste@gmail.com");
+        emails.add("backend@gmail.com");
+
+        for(String l : emails){
+            System.out.println(l);
+        }
+
+        System.out.println(emails.size());
+        System.out.println(emails.contains("teste@gmail.com"));
+        emails.remove("java@gmail.com");
+        for(String l : emails){
+            System.out.println(l);
+        }
+
+
+
     }
 }
