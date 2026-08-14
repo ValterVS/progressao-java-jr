@@ -2,6 +2,8 @@ import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.List;
 
 public class Main {
@@ -78,6 +80,21 @@ public class Main {
         for(String l : emails){
             System.out.println(l);
         }
+        //Map <Chave , Tipo > nome = new HashMap<>();
+        Map<Integer, String> CadNomes = new HashMap<>();
+
+        CadNomes.put(1, "Valter");
+        CadNomes.put(2, "Bethy");
+        CadNomes.put(3, "Antonio");
+        CadNomes.put(4, "Pedro");
+        CadNomes.put(5, "Marcos");
+
+        System.out.println(CadNomes.get(1)); //Mostra valor da posicao
+        System.out.println("-----");
+        CadNomes.remove(2); // Remove da posicao informada
+        System.out.println(CadNomes.containsKey(3)); //  Verifica a chave
+        System.out.println(CadNomes.containsValue("Marcos"));
+
 
 
 
