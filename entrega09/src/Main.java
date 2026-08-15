@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -93,9 +94,34 @@ public class Main {
         System.out.println("-----");
         CadNomes.remove(2); // Remove da posicao informada
         System.out.println(CadNomes.containsKey(3)); //  Verifica a chave
-        System.out.println(CadNomes.containsValue("Marcos"));
+        System.out.println(CadNomes.containsValue("Marcos")); // Verifica se valor existe
+        System.out.println(CadNomes.size()); // Verifica o tamanho
+
+        Map<Integer,String> Produtos = new HashMap<>();
+        Produtos.put(1,"Notebook");
+        Produtos.put(2,"Computador");
+        Produtos.put(3,"Smartphone");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o código do produto desejado: ");
+        Integer opcao = scanner.nextInt();
+        System.out.println(Produtos.get(opcao));
 
 
+        Map<Integer,Produtos> Produto = new HashMap<>();
+        Produto.put(1, new Produtos(1,"Arroz", 15.00));
+        Produto.put(2, new Produtos(2,"Feijao", 7.00));
+        Produto.put(3, new Produtos(3,"Macarrao", 5.00));
+        Produto.put(4, new Produtos(4,"Peixe", 32.00));
+        Produto.put(5, new Produtos(5,"Ovo", 2.50));
+        System.out.println("Digite qual ID do produto: ");
+        Integer opcao2 = scanner.nextInt();
+        if(Produto.containsKey(opcao2)){
+            Produtos ProdutoEncontrado = Produto.get(opcao2);
+            System.out.println("Produto Encontrado!");
+            System.out.println("Nome: " + ProdutoEncontrado.Nome);
+            System.out.println("Preco: " + ProdutoEncontrado.Preco);
+        }
 
 
     }
