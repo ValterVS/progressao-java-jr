@@ -81,6 +81,8 @@ public class Main {
         for(String l : emails){
             System.out.println(l);
         }
+
+
         //Map <Chave , Tipo > nome = new HashMap<>();
         Map<Integer, String> CadNomes = new HashMap<>();
 
@@ -121,7 +123,12 @@ public class Main {
             System.out.println("Produto Encontrado!");
             System.out.println("Nome: " + ProdutoEncontrado.Nome);
             System.out.println("Preco: " + ProdutoEncontrado.Preco);
+        }else{
+            System.out.println("Produto não encontrado!");
         }
+
+        //Generics - Nela você determina que tipo de dado aquela lista aceita, e caso tente inserir outro, dá erro
+
 
 
     }
